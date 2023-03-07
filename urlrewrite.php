@@ -48,6 +48,14 @@ $arUrlRewrite=array (
     'PATH' => '/flowers_shop/products/index.php',
     'SORT' => 100,
   ),
+  15 => 
+  array (
+    'CONDITION' => '#^/flowers_shop/buket-2/#',
+    'RULE' => '',
+    'ID' => 'bitrix:catalog',
+    'PATH' => '/flowers_shop/buket-2/index.php',
+    'SORT' => 100,
+  ),
   3 => 
   array (
     'CONDITION' => '#^/online/(/?)([^/]*)#',
