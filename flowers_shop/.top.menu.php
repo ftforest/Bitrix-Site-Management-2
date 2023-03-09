@@ -43,8 +43,8 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Букет 2", 
-		"/flowers_shop/buket-2/", 
+		"Цветы", 
+		"/flowers_shop/flowers/", 
 		Array(), 
 		Array(), 
 		"" 

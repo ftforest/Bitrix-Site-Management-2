@@ -32,6 +32,14 @@ $arUrlRewrite=array (
     'PATH' => '/bitrix/services/ymarket/index.php',
     'SORT' => 100,
   ),
+  18 => 
+  array (
+    'CONDITION' => '#^/flowers_shop/bouquets/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/flowers_shop/bouquets/index.php',
+    'SORT' => 100,
+  ),
   12 => 
   array (
     'CONDITION' => '#^/flowers_shop/services/#',
@@ -48,20 +56,20 @@ $arUrlRewrite=array (
     'PATH' => '/flowers_shop/products/index.php',
     'SORT' => 100,
   ),
-  15 => 
+  19 => 
+  array (
+    'CONDITION' => '#^/flowers_shop/flowers/#',
+    'RULE' => '',
+    'ID' => 'bitrix:news',
+    'PATH' => '/flowers_shop/flowers/index.php',
+    'SORT' => 100,
+  ),
+  17 => 
   array (
     'CONDITION' => '#^/flowers_shop/buket-2/#',
     'RULE' => '',
     'ID' => 'bitrix:catalog',
     'PATH' => '/flowers_shop/buket-2/index.php',
-    'SORT' => 100,
-  ),
-  3 => 
-  array (
-    'CONDITION' => '#^/online/(/?)([^/]*)#',
-    'RULE' => '',
-    'ID' => NULL,
-    'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
   14 => 
@@ -70,6 +78,14 @@ $arUrlRewrite=array (
     'RULE' => '',
     'ID' => 'bitrix:news',
     'PATH' => '/flowers_shop/news/index.php',
+    'SORT' => 100,
+  ),
+  3 => 
+  array (
+    'CONDITION' => '#^/online/(/?)([^/]*)#',
+    'RULE' => '',
+    'ID' => NULL,
+    'PATH' => '/desktop_app/router.php',
     'SORT' => 100,
   ),
   0 => 
